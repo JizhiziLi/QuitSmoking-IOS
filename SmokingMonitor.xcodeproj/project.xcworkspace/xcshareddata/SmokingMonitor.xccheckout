@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>383CA9C9-ADFD-47C4-9504-03194DF96BC9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SmokingMonitor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8402B2A2243F4B5FF74E792B4291F8D9E17A91A4</key>
+		<string>https://github.com/JacksonXie/SmokingMonitor.git</string>
+		<key>F505076DAB6B928AD41365CC394201B877FE7041</key>
+		<string>https://github.com/sym44/Project-Future-Star.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SmokingMonitor.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8402B2A2243F4B5FF74E792B4291F8D9E17A91A4</key>
+		<string>../..%20v1</string>
+		<key>F505076DAB6B928AD41365CC394201B877FE7041</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sym44/Project-Future-Star.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F505076DAB6B928AD41365CC394201B877FE7041</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F505076DAB6B928AD41365CC394201B877FE7041</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Project%20Future%20Star</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8402B2A2243F4B5FF74E792B4291F8D9E17A91A4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Project%20Future%20Star%20v1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

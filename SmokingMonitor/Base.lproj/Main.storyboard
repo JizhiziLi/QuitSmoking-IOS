@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--User Login View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="UserLoginViewController" customModule="SmokingMonitor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="gpD-Vh-9P8" kind="presentation" identifier="LoginToMain" id="DmU-tJ-iuW"/>
+                        <segue destination="pA0-Xa-IFQ" kind="presentation" identifier="LoginToRegister" id="WeC-ZY-opv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Main Page View Controller-->
+        <scene sceneID="FUi-BH-1QE">
+            <objects>
+                <viewController id="gpD-Vh-9P8" customClass="MainPageViewController" customModule="SmokingMonitor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JbN-tg-yth"/>
+                        <viewControllerLayoutGuide type="bottom" id="cam-Ip-o77"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="B4v-iA-Prn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="ifE-W7-ZqW" kind="presentation" identifier="MainToGraph" modalTransitionStyle="crossDissolve" id="c7x-8C-P5i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="npj-Q9-sab" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1029.5" y="353.5"/>
+        </scene>
+        <!--Graph View Controller-->
+        <scene sceneID="roQ-yn-vDf">
+            <objects>
+                <viewController id="ifE-W7-ZqW" customClass="GraphViewController" customModule="SmokingMonitor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gOd-YJ-Z4J"/>
+                        <viewControllerLayoutGuide type="bottom" id="bKn-FY-I4a"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a7v-MS-VNT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bxu-uN-Jkr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1485.5" y="353.5"/>
+        </scene>
+        <!--User Account View Controller-->
+        <scene sceneID="5Te-dh-hgD">
+            <objects>
+                <viewController id="pA0-Xa-IFQ" customClass="UserAccountViewController" customModule="SmokingMonitor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oCj-bA-e7f"/>
+                        <viewControllerLayoutGuide type="bottom" id="zCL-9O-1b8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sb1-mE-8QS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="9Xa-9I-WwD" kind="presentation" identifier="AccountToHealthkit" modalTransitionStyle="crossDissolve" id="UGT-eu-LeC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xM6-wD-cKH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="553.5" y="1196.5"/>
+        </scene>
+        <!--Health Kit Authentification View Controller-->
+        <scene sceneID="gdk-zl-v32">
+            <objects>
+                <viewController id="9Xa-9I-WwD" customClass="HealthKitAuthentificationViewController" customModule="SmokingMonitor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IdF-Y3-EiO"/>
+                        <viewControllerLayoutGuide type="bottom" id="So0-Kp-06A"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dSz-3F-jGY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KSc-rD-cNE"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="fGL-Eg-dKh" kind="presentation" identifier="HealthKitToInformation" modalTransitionStyle="crossDissolve" id="sBA-Z8-uYV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IJH-U4-XT0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1029.5" y="1196.5"/>
+        </scene>
+        <!--User Information View Controller-->
+        <scene sceneID="saa-it-C5D">
+            <objects>
+                <viewController id="fGL-Eg-dKh" customClass="UserInformationViewController" customModule="SmokingMonitor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="U7I-ZL-hZB"/>
+                        <viewControllerLayoutGuide type="bottom" id="aYM-Bn-t1B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="May-QP-hyX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="gpD-Vh-9P8" kind="presentation" identifier="InformationToMain" id="PtT-Md-pIM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="igB-Yv-ZRx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1526.5" y="1196.5"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="DmU-tJ-iuW"/>
+    </inferredMetricsTieBreakers>
+</document>

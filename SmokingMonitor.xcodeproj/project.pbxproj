@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F2A7CD91A89389D003FE293 /* HealthKitMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2A7CD81A89389D003FE293 /* HealthKitMaster.swift */; };
+		0F2A7CDB1A8938C4003FE293 /* UserSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2A7CDA1A8938C4003FE293 /* UserSignUp.swift */; };
+		0F2A7CDD1A8938F1003FE293 /* HealthKitCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2A7CDC1A8938F1003FE293 /* HealthKitCalculate.swift */; };
+		4D1761DC1A849B8300375565 /* NotificationCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1761DB1A849B8300375565 /* NotificationCreator.swift */; };
+		4D24080E1A87513500E100EE /* TriggerCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D24080D1A87513500E100EE /* TriggerCounter.swift */; };
+		4D3F7B701A7DF9BE00921439 /* Plot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F7B6F1A7DF9BE00921439 /* Plot.swift */; };
+		4DA2677D1A75FD2800C18690 /* Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA267731A75FD2800C18690 /* Monitor.swift */; };
+		4DA2677E1A75FD2800C18690 /* Trigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA267741A75FD2800C18690 /* Trigger.swift */; };
+		4DA2677F1A75FD2800C18690 /* ISmoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA267751A75FD2800C18690 /* ISmoke.swift */; };
+		4DA267801A75FD2800C18690 /* Analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA267761A75FD2800C18690 /* Analysis.swift */; };
+		4DA267811A75FD2800C18690 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA267771A75FD2800C18690 /* Date.swift */; };
+		4DA267821A75FD2800C18690 /* Suggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA267781A75FD2800C18690 /* Suggestions.swift */; };
+		4DA267831A75FD2800C18690 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA267791A75FD2800C18690 /* Notifications.swift */; };
+		4DA267841A75FD2800C18690 /* ExDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2677A1A75FD2800C18690 /* ExDictionary.swift */; };
+		4DA267881A75FDE500C18690 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA267871A75FDE500C18690 /* HealthKit.framework */; };
+		4DF788F01A819DBB005F1040 /* HealthIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF788EF1A819DBB005F1040 /* HealthIndex.swift */; };
+		572316B51A847321005779F1 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572316B41A847321005779F1 /* Notification.swift */; };
+		572316B91A847321005779F1 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572316B81A847321005779F1 /* UserInfo.swift */; };
+		572316BB1A8473A3005779F1 /* SmokingRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572316BA1A8473A3005779F1 /* SmokingRecord.swift */; };
+		573CD3EE1A8461F3008A90A1 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573CD3ED1A8461F3008A90A1 /* CoreDataHelper.swift */; };
+		B4258CFD1A71D77B009695BB /* PasswordIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4258CF91A71D77B009695BB /* PasswordIcon.png */; };
+		B4258CFE1A71D77B009695BB /* PasswordIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4258CFA1A71D77B009695BB /* PasswordIcon@2x.png */; };
+		B4258CFF1A71D77B009695BB /* UsernameIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4258CFB1A71D77B009695BB /* UsernameIcon.png */; };
+		B4258D001A71D77B009695BB /* UsernameIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4258CFC1A71D77B009695BB /* UsernameIcon@2x.png */; };
+		B4258D031A71F5FA009695BB /* healthKitIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4258D011A71F5FA009695BB /* healthKitIcon.png */; };
+		B4258D041A71F5FA009695BB /* healthKitIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4258D021A71F5FA009695BB /* healthKitIcon@2x.png */; };
+		B4258D061A7207BA009695BB /* HealthKitAuthentificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4258D051A7207BA009695BB /* HealthKitAuthentificationViewController.swift */; };
+		B4258D081A730DAD009695BB /* UserInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4258D071A730DAD009695BB /* UserInformationViewController.swift */; };
+		B42DE35D1A6CAE36005AEC3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42DE35C1A6CAE36005AEC3F /* AppDelegate.swift */; };
+		B42DE3601A6CAE36005AEC3F /* SmokingMonitor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B42DE35E1A6CAE36005AEC3F /* SmokingMonitor.xcdatamodeld */; };
+		B42DE3621A6CAE36005AEC3F /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42DE3611A6CAE36005AEC3F /* UserLoginViewController.swift */; };
+		B42DE3651A6CAE36005AEC3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42DE3631A6CAE36005AEC3F /* Main.storyboard */; };
+		B42DE3671A6CAE36005AEC3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42DE3661A6CAE36005AEC3F /* Images.xcassets */; };
+		B42DE36A1A6CAE36005AEC3F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B42DE3681A6CAE36005AEC3F /* LaunchScreen.xib */; };
+		B42DE3761A6CAE36005AEC3F /* SmokingMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42DE3751A6CAE36005AEC3F /* SmokingMonitorTests.swift */; };
+		B450ABA41A6DD73D0097BEBA /* LayoutClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B450ABA31A6DD73D0097BEBA /* LayoutClass.swift */; };
+		B450ABA61A6DD94F0097BEBA /* UserLoginViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B450ABA51A6DD94F0097BEBA /* UserLoginViewLayout.swift */; };
+		B47C5E151A70C08D004A65E6 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C5E141A70C08D004A65E6 /* MainPageViewController.swift */; };
+		B47C5E171A70C0D8004A65E6 /* HealthIndexCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C5E161A70C0D8004A65E6 /* HealthIndexCircle.swift */; };
+		B47C5E1B1A70C409004A65E6 /* MainViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C5E1A1A70C409004A65E6 /* MainViewLayout.swift */; };
+		B47C5E1D1A70FB56004A65E6 /* UserAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C5E1C1A70FB56004A65E6 /* UserAccountViewController.swift */; };
+		B47C5E211A70FE90004A65E6 /* RegisterViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47C5E201A70FE90004A65E6 /* RegisterViewLayout.swift */; };
+		B49EB1ED1A887E4600FDE1FE /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49EB1EC1A887E4600FDE1FE /* GraphViewController.swift */; };
+		B49EB1EF1A887EB700FDE1FE /* DataVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49EB1EE1A887EB700FDE1FE /* DataVisualizationView.swift */; };
+		B4C8EAEC1A79BA1100969C25 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C8EAEB1A79BA1100969C25 /* GraphView.swift */; };
+		B4E289C71A785D0B00A9D8BD /* ColorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E289C61A785D0B00A9D8BD /* ColorClass.swift */; };
+		B4E289C91A785D2F00A9D8BD /* RegisterTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E289C81A785D2F00A9D8BD /* RegisterTopView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B42DE3701A6CAE36005AEC3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B42DE34F1A6CAE36005AEC3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B42DE3561A6CAE36005AEC3F;
+			remoteInfo = SmokingMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F2A7CD81A89389D003FE293 /* HealthKitMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitMaster.swift; sourceTree = "<group>"; };
+		0F2A7CDA1A8938C4003FE293 /* UserSignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSignUp.swift; sourceTree = "<group>"; };
+		0F2A7CDC1A8938F1003FE293 /* HealthKitCalculate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitCalculate.swift; sourceTree = "<group>"; };
+		4D1761DB1A849B8300375565 /* NotificationCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCreator.swift; sourceTree = "<group>"; };
+		4D24080D1A87513500E100EE /* TriggerCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriggerCounter.swift; sourceTree = "<group>"; };
+		4D3F7B6F1A7DF9BE00921439 /* Plot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plot.swift; sourceTree = "<group>"; };
+		4DA267731A75FD2800C18690 /* Monitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monitor.swift; sourceTree = "<group>"; };
+		4DA267741A75FD2800C18690 /* Trigger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trigger.swift; sourceTree = "<group>"; };
+		4DA267751A75FD2800C18690 /* ISmoke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISmoke.swift; sourceTree = "<group>"; };
+		4DA267761A75FD2800C18690 /* Analysis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analysis.swift; sourceTree = "<group>"; };
+		4DA267771A75FD2800C18690 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		4DA267781A75FD2800C18690 /* Suggestions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suggestions.swift; sourceTree = "<group>"; };
+		4DA267791A75FD2800C18690 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		4DA2677A1A75FD2800C18690 /* ExDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExDictionary.swift; sourceTree = "<group>"; };
+		4DA267871A75FDE500C18690 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		4DA267891A75FDE500C18690 /* SmokingMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SmokingMonitor.entitlements; sourceTree = "<group>"; };
+		4DF788EF1A819DBB005F1040 /* HealthIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthIndex.swift; sourceTree = "<group>"; };
+		572316B41A847321005779F1 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		572316B81A847321005779F1 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		572316BA1A8473A3005779F1 /* SmokingRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmokingRecord.swift; sourceTree = "<group>"; };
+		573CD3ED1A8461F3008A90A1 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		B4258CF91A71D77B009695BB /* PasswordIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PasswordIcon.png; sourceTree = "<group>"; };
+		B4258CFA1A71D77B009695BB /* PasswordIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PasswordIcon@2x.png"; sourceTree = "<group>"; };
+		B4258CFB1A71D77B009695BB /* UsernameIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UsernameIcon.png; sourceTree = "<group>"; };
+		B4258CFC1A71D77B009695BB /* UsernameIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UsernameIcon@2x.png"; sourceTree = "<group>"; };
+		B4258D011A71F5FA009695BB /* healthKitIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = healthKitIcon.png; sourceTree = "<group>"; };
+		B4258D021A71F5FA009695BB /* healthKitIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "healthKitIcon@2x.png"; sourceTree = "<group>"; };
+		B4258D051A7207BA009695BB /* HealthKitAuthentificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitAuthentificationViewController.swift; sourceTree = "<group>"; };
+		B4258D071A730DAD009695BB /* UserInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInformationViewController.swift; sourceTree = "<group>"; };
+		B42DE3571A6CAE36005AEC3F /* SmokingMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmokingMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42DE35B1A6CAE36005AEC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42DE35C1A6CAE36005AEC3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B42DE35F1A6CAE36005AEC3F /* SmokingMonitor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmokingMonitor.xcdatamodel; sourceTree = "<group>"; };
+		B42DE3611A6CAE36005AEC3F /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
+		B42DE3641A6CAE36005AEC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B42DE3661A6CAE36005AEC3F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B42DE3691A6CAE36005AEC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B42DE36F1A6CAE36005AEC3F /* SmokingMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmokingMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42DE3741A6CAE36005AEC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42DE3751A6CAE36005AEC3F /* SmokingMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokingMonitorTests.swift; sourceTree = "<group>"; };
+		B450ABA31A6DD73D0097BEBA /* LayoutClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutClass.swift; sourceTree = "<group>"; };
+		B450ABA51A6DD94F0097BEBA /* UserLoginViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginViewLayout.swift; sourceTree = "<group>"; };
+		B47C5E141A70C08D004A65E6 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		B47C5E161A70C0D8004A65E6 /* HealthIndexCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthIndexCircle.swift; sourceTree = "<group>"; };
+		B47C5E1A1A70C409004A65E6 /* MainViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewLayout.swift; sourceTree = "<group>"; };
+		B47C5E1C1A70FB56004A65E6 /* UserAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccountViewController.swift; sourceTree = "<group>"; };
+		B47C5E201A70FE90004A65E6 /* RegisterViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewLayout.swift; sourceTree = "<group>"; };
+		B49EB1EC1A887E4600FDE1FE /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		B49EB1EE1A887EB700FDE1FE /* DataVisualizationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataVisualizationView.swift; sourceTree = "<group>"; };
+		B4C8EAEB1A79BA1100969C25 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		B4E289C61A785D0B00A9D8BD /* ColorClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorClass.swift; path = ../ColorClass.swift; sourceTree = "<group>"; };
+		B4E289C81A785D2F00A9D8BD /* RegisterTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterTopView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B42DE3541A6CAE36005AEC3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA267881A75FDE500C18690 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42DE36C1A6CAE36005AEC3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4258CF71A71C902009695BB /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				B4E289C61A785D0B00A9D8BD /* ColorClass.swift */,
+				B47C5E161A70C0D8004A65E6 /* HealthIndexCircle.swift */,
+				B450ABA31A6DD73D0097BEBA /* LayoutClass.swift */,
+				B450ABA51A6DD94F0097BEBA /* UserLoginViewLayout.swift */,
+				B47C5E201A70FE90004A65E6 /* RegisterViewLayout.swift */,
+				B47C5E1A1A70C409004A65E6 /* MainViewLayout.swift */,
+				B4E289C81A785D2F00A9D8BD /* RegisterTopView.swift */,
+				B4C8EAEB1A79BA1100969C25 /* GraphView.swift */,
+				B49EB1EE1A887EB700FDE1FE /* DataVisualizationView.swift */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		B4258CF81A71D772009695BB /* Pic */ = {
+			isa = PBXGroup;
+			children = (
+				B4258D011A71F5FA009695BB /* healthKitIcon.png */,
+				B4258D021A71F5FA009695BB /* healthKitIcon@2x.png */,
+				B4258CF91A71D77B009695BB /* PasswordIcon.png */,
+				B4258CFA1A71D77B009695BB /* PasswordIcon@2x.png */,
+				B4258CFB1A71D77B009695BB /* UsernameIcon.png */,
+				B4258CFC1A71D77B009695BB /* UsernameIcon@2x.png */,
+			);
+			name = Pic;
+			sourceTree = "<group>";
+		};
+		B42DE34E1A6CAE36005AEC3F = {
+			isa = PBXGroup;
+			children = (
+				4DA267871A75FDE500C18690 /* HealthKit.framework */,
+				B42DE3591A6CAE36005AEC3F /* SmokingMonitor */,
+				B42DE3721A6CAE36005AEC3F /* SmokingMonitorTests */,
+				B42DE3581A6CAE36005AEC3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B42DE3581A6CAE36005AEC3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B42DE3571A6CAE36005AEC3F /* SmokingMonitor.app */,
+				B42DE36F1A6CAE36005AEC3F /* SmokingMonitorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B42DE3591A6CAE36005AEC3F /* SmokingMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				4DA267891A75FDE500C18690 /* SmokingMonitor.entitlements */,
+				B42DE3801A6CB9C7005AEC3F /* View */,
+				B42DE37F1A6CB9BD005AEC3F /* Model */,
+				B42DE3811A6CB9CD005AEC3F /* Controller */,
+				B42DE35C1A6CAE36005AEC3F /* AppDelegate.swift */,
+				B42DE3631A6CAE36005AEC3F /* Main.storyboard */,
+				B42DE3661A6CAE36005AEC3F /* Images.xcassets */,
+				B42DE3681A6CAE36005AEC3F /* LaunchScreen.xib */,
+				B42DE35E1A6CAE36005AEC3F /* SmokingMonitor.xcdatamodeld */,
+				B42DE35A1A6CAE36005AEC3F /* Supporting Files */,
+			);
+			path = SmokingMonitor;
+			sourceTree = "<group>";
+		};
+		B42DE35A1A6CAE36005AEC3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4258CF81A71D772009695BB /* Pic */,
+				B42DE35B1A6CAE36005AEC3F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B42DE3721A6CAE36005AEC3F /* SmokingMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B42DE3751A6CAE36005AEC3F /* SmokingMonitorTests.swift */,
+				B42DE3731A6CAE36005AEC3F /* Supporting Files */,
+			);
+			path = SmokingMonitorTests;
+			sourceTree = "<group>";
+		};
+		B42DE3731A6CAE36005AEC3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B42DE3741A6CAE36005AEC3F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B42DE37F1A6CB9BD005AEC3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				572316B81A847321005779F1 /* UserInfo.swift */,
+				572316BA1A8473A3005779F1 /* SmokingRecord.swift */,
+				572316B41A847321005779F1 /* Notification.swift */,
+				4DA267731A75FD2800C18690 /* Monitor.swift */,
+				4DA267741A75FD2800C18690 /* Trigger.swift */,
+				4DA267751A75FD2800C18690 /* ISmoke.swift */,
+				4DA267761A75FD2800C18690 /* Analysis.swift */,
+				4D1761DB1A849B8300375565 /* NotificationCreator.swift */,
+				4DA267771A75FD2800C18690 /* Date.swift */,
+				4DA267781A75FD2800C18690 /* Suggestions.swift */,
+				4DA267791A75FD2800C18690 /* Notifications.swift */,
+				4DA2677A1A75FD2800C18690 /* ExDictionary.swift */,
+				4D3F7B6F1A7DF9BE00921439 /* Plot.swift */,
+				4DF788EF1A819DBB005F1040 /* HealthIndex.swift */,
+				573CD3ED1A8461F3008A90A1 /* CoreDataHelper.swift */,
+				4D24080D1A87513500E100EE /* TriggerCounter.swift */,
+				0F2A7CD81A89389D003FE293 /* HealthKitMaster.swift */,
+				0F2A7CDA1A8938C4003FE293 /* UserSignUp.swift */,
+				0F2A7CDC1A8938F1003FE293 /* HealthKitCalculate.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B42DE3801A6CB9C7005AEC3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4258CF71A71C902009695BB /* Layout */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B42DE3811A6CB9CD005AEC3F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B42DE3611A6CAE36005AEC3F /* UserLoginViewController.swift */,
+				B47C5E141A70C08D004A65E6 /* MainPageViewController.swift */,
+				B47C5E1C1A70FB56004A65E6 /* UserAccountViewController.swift */,
+				B4258D051A7207BA009695BB /* HealthKitAuthentificationViewController.swift */,
+				B4258D071A730DAD009695BB /* UserInformationViewController.swift */,
+				B49EB1EC1A887E4600FDE1FE /* GraphViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B42DE3561A6CAE36005AEC3F /* SmokingMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42DE3791A6CAE36005AEC3F /* Build configuration list for PBXNativeTarget "SmokingMonitor" */;
+			buildPhases = (
+				B42DE3531A6CAE36005AEC3F /* Sources */,
+				B42DE3541A6CAE36005AEC3F /* Frameworks */,
+				B42DE3551A6CAE36005AEC3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmokingMonitor;
+			productName = SmokingMonitor;
+			productReference = B42DE3571A6CAE36005AEC3F /* SmokingMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B42DE36E1A6CAE36005AEC3F /* SmokingMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42DE37C1A6CAE36005AEC3F /* Build configuration list for PBXNativeTarget "SmokingMonitorTests" */;
+			buildPhases = (
+				B42DE36B1A6CAE36005AEC3F /* Sources */,
+				B42DE36C1A6CAE36005AEC3F /* Frameworks */,
+				B42DE36D1A6CAE36005AEC3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B42DE3711A6CAE36005AEC3F /* PBXTargetDependency */,
+			);
+			name = SmokingMonitorTests;
+			productName = SmokingMonitorTests;
+			productReference = B42DE36F1A6CAE36005AEC3F /* SmokingMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B42DE34F1A6CAE36005AEC3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = futureStar;
+				TargetAttributes = {
+					B42DE3561A6CAE36005AEC3F = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 9GNRJZ9AWH;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					B42DE36E1A6CAE36005AEC3F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B42DE3561A6CAE36005AEC3F;
+					};
+				};
+			};
+			buildConfigurationList = B42DE3521A6CAE36005AEC3F /* Build configuration list for PBXProject "SmokingMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B42DE34E1A6CAE36005AEC3F;
+			productRefGroup = B42DE3581A6CAE36005AEC3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B42DE3561A6CAE36005AEC3F /* SmokingMonitor */,
+				B42DE36E1A6CAE36005AEC3F /* SmokingMonitorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B42DE3551A6CAE36005AEC3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42DE3651A6CAE36005AEC3F /* Main.storyboard in Resources */,
+				B42DE36A1A6CAE36005AEC3F /* LaunchScreen.xib in Resources */,
+				B4258CFF1A71D77B009695BB /* UsernameIcon.png in Resources */,
+				B4258D031A71F5FA009695BB /* healthKitIcon.png in Resources */,
+				B4258CFE1A71D77B009695BB /* PasswordIcon@2x.png in Resources */,
+				B42DE3671A6CAE36005AEC3F /* Images.xcassets in Resources */,
+				B4258CFD1A71D77B009695BB /* PasswordIcon.png in Resources */,
+				B4258D041A71F5FA009695BB /* healthKitIcon@2x.png in Resources */,
+				B4258D001A71D77B009695BB /* UsernameIcon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42DE36D1A6CAE36005AEC3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B42DE3531A6CAE36005AEC3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3F7B701A7DF9BE00921439 /* Plot.swift in Sources */,
+				4D24080E1A87513500E100EE /* TriggerCounter.swift in Sources */,
+				B49EB1ED1A887E4600FDE1FE /* GraphViewController.swift in Sources */,
+				B49EB1EF1A887EB700FDE1FE /* DataVisualizationView.swift in Sources */,
+				4DA267801A75FD2800C18690 /* Analysis.swift in Sources */,
+				4DA2677D1A75FD2800C18690 /* Monitor.swift in Sources */,
+				573CD3EE1A8461F3008A90A1 /* CoreDataHelper.swift in Sources */,
+				B47C5E151A70C08D004A65E6 /* MainPageViewController.swift in Sources */,
+				B47C5E171A70C0D8004A65E6 /* HealthIndexCircle.swift in Sources */,
+				4D1761DC1A849B8300375565 /* NotificationCreator.swift in Sources */,
+				B450ABA41A6DD73D0097BEBA /* LayoutClass.swift in Sources */,
+				B42DE3621A6CAE36005AEC3F /* UserLoginViewController.swift in Sources */,
+				B47C5E211A70FE90004A65E6 /* RegisterViewLayout.swift in Sources */,
+				B4E289C71A785D0B00A9D8BD /* ColorClass.swift in Sources */,
+				4DA2677F1A75FD2800C18690 /* ISmoke.swift in Sources */,
+				B47C5E1D1A70FB56004A65E6 /* UserAccountViewController.swift in Sources */,
+				0F2A7CD91A89389D003FE293 /* HealthKitMaster.swift in Sources */,
+				B42DE35D1A6CAE36005AEC3F /* AppDelegate.swift in Sources */,
+				4DA267821A75FD2800C18690 /* Suggestions.swift in Sources */,
+				0F2A7CDD1A8938F1003FE293 /* HealthKitCalculate.swift in Sources */,
+				B4258D081A730DAD009695BB /* UserInformationViewController.swift in Sources */,
+				B42DE3601A6CAE36005AEC3F /* SmokingMonitor.xcdatamodeld in Sources */,
+				4DF788F01A819DBB005F1040 /* HealthIndex.swift in Sources */,
+				4DA267831A75FD2800C18690 /* Notifications.swift in Sources */,
+				4DA267841A75FD2800C18690 /* ExDictionary.swift in Sources */,
+				4DA2677E1A75FD2800C18690 /* Trigger.swift in Sources */,
+				B4C8EAEC1A79BA1100969C25 /* GraphView.swift in Sources */,
+				B47C5E1B1A70C409004A65E6 /* MainViewLayout.swift in Sources */,
+				572316B51A847321005779F1 /* Notification.swift in Sources */,
+				B4E289C91A785D2F00A9D8BD /* RegisterTopView.swift in Sources */,
+				4DA267811A75FD2800C18690 /* Date.swift in Sources */,
+				B450ABA61A6DD94F0097BEBA /* UserLoginViewLayout.swift in Sources */,
+				0F2A7CDB1A8938C4003FE293 /* UserSignUp.swift in Sources */,
+				572316BB1A8473A3005779F1 /* SmokingRecord.swift in Sources */,
+				572316B91A847321005779F1 /* UserInfo.swift in Sources */,
+				B4258D061A7207BA009695BB /* HealthKitAuthentificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B42DE36B1A6CAE36005AEC3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42DE3761A6CAE36005AEC3F /* SmokingMonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B42DE3711A6CAE36005AEC3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B42DE3561A6CAE36005AEC3F /* SmokingMonitor */;
+			targetProxy = B42DE3701A6CAE36005AEC3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B42DE3631A6CAE36005AEC3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B42DE3641A6CAE36005AEC3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B42DE3681A6CAE36005AEC3F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B42DE3691A6CAE36005AEC3F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B42DE3771A6CAE36005AEC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B42DE3781A6CAE36005AEC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B42DE37A1A6CAE36005AEC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SmokingMonitor/SmokingMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SmokingMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B42DE37B1A6CAE36005AEC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SmokingMonitor/SmokingMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SmokingMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		B42DE37D1A6CAE36005AEC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmokingMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmokingMonitor.app/SmokingMonitor";
+			};
+			name = Debug;
+		};
+		B42DE37E1A6CAE36005AEC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmokingMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmokingMonitor.app/SmokingMonitor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B42DE3521A6CAE36005AEC3F /* Build configuration list for PBXProject "SmokingMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42DE3771A6CAE36005AEC3F /* Debug */,
+				B42DE3781A6CAE36005AEC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42DE3791A6CAE36005AEC3F /* Build configuration list for PBXNativeTarget "SmokingMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42DE37A1A6CAE36005AEC3F /* Debug */,
+				B42DE37B1A6CAE36005AEC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42DE37C1A6CAE36005AEC3F /* Build configuration list for PBXNativeTarget "SmokingMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42DE37D1A6CAE36005AEC3F /* Debug */,
+				B42DE37E1A6CAE36005AEC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B42DE35E1A6CAE36005AEC3F /* SmokingMonitor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B42DE35F1A6CAE36005AEC3F /* SmokingMonitor.xcdatamodel */,
+			);
+			currentVersion = B42DE35F1A6CAE36005AEC3F /* SmokingMonitor.xcdatamodel */;
+			path = SmokingMonitor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B42DE34F1A6CAE36005AEC3F /* Project object */;
+}
